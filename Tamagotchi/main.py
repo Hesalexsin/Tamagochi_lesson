@@ -85,6 +85,9 @@ def play():
     if type(pet) == Cats:
         print(CAT)
     print(f"Познакомься! Это {pet.name}")
+    pet.life()
+
+
 
 
 CAT = r"""
